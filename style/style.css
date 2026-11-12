@@ -1,40 +1,53 @@
-body{
-    background-color:rgb(0,255,255);
+body {
+    background-color: rgb(0, 255, 255);
+    padding: 1%;
 }
-main{
-    background-color: rgb(255,255,255);
-    display:flex;
-    flex-direction:row;
-    flex-wrap:nowrap;
-    justify-content:space-evenly;
-    padding:5%;
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
     align-items: flex-start;
 }
-ol{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
+
+ol {
     list-style: none;
-    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
 }
-.lis:hover{
-    border:5px solid rgb(0,0,0);
-    background-color: rgb(0,0,0);
-}
-a{
-    text-decoration: none;
-    color:rgb(0,0,0);
-}
-a:hover{
+
+.lis:hover {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     text-decoration: underline;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
-article{
-    max-width:50%;
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 100%;
 }
-.aurore{
+
+article {
+    max-width: 50%;
+}
+
+.aurore {
     max-width: 100%;
 }
-img{
+
+img {
     border-radius: 10px;
+}
+
+aside {
+    margin-left: 5%;
+}
+
+.peinture {
+    width: 81%;
 }
